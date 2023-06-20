@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base{
+    :root{
+        --primary-color: 25deg 97% 53%;
+        --neutral-gray: 216deg 12% 54%;
+        --neutral-blue: 213deg 28% 12%;
+    }
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    color: hsl(217, 12%, 63%)
+}
+
+p {
+    font-size: 15px;
+}
